@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Lung Care</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon3.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Bootslander - v4.3.0
+  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <h1 class="main h1"><a href="index.html"><span>Lung Care</span></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#features">Features</a></li>
+                    <li><a class="nav-link scrollto" href="#milestones">Milestones</a></li>
+                    <li><a class="nav-link scrollto" href="#document">Documents</a></li>
+                    <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+                    <div data-aos="zoom-out">
+                        <h1>Be Careful With Your Life<br><span>Lung Care</span></h1>
+                        <h2>Machine Learning based lungcancer prediction and consultation system</h2>
+                        <div class="text-center text-lg-start">
+                            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+                    <img src="assets/img/final.png" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+                        <img src="./assets/img/about1.png" width="450px" alt="aboutImg">
+                    </div>
+
+                    <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+                        <h3>What is Lung Care?</h3>
+                        <p style="text-align:justify">"Lung Care" is a mobile app that allows users to selfscreen for lung cancer. Individual risk prediction must be improved in order to 
+                            choose individuals for preventative or early detection interventions. A 
+                            questionnaire has been pre-programmed based on the patient's symptoms. By 
+                            assessing the user's responses, the application forecasts the user's cancer risk as 
+                            a percentage.</p>
+
+                        <!-- <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="icon"><i class="bx bx-gift"></i></div>
+                            <h4 class="title"><a href="">Nemo Enim</a></h4>
+                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        </div>
+
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="icon"><i class="bx bx-atom"></i></div>
+                            <h4 class="title"><a href="">Dine Pad</a></h4>
+                            <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                        </div> -->
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Features</h2>
+                    <p>Check The Features</p>
+                </div>
+
+                <div class="row" data-aos="fade-left">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
+                            <i class="ri-phone-camera-line" style="color: #ffbb2c;"></i>
+                            <h3><a href="">Lung Cancer Detection</a></h3>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                            <i class="ri-message-2-line" style="color: #5578ff;"></i>
+                            <h3><a href="">Chat-bot</a></h3>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
+                            <i class="ri-database-2-line" style="color: #47aeff;"></i>
+                            <h3><a href="">Knowledge-base</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
+                            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+                            <h3><a href="">Diet & Exercise Plan</a></h3>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+                            <h3><a href="">Magni Dolores</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+                            <h3><a href="">Eiusmod Tempor</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
+                            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+                            <h3><a href="">Midela Teren</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+                            <h3><a href="">Pira Neve</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
+                            <i class="ri-anchor-line" style="color: #b2904f;"></i>
+                            <h3><a href="">Dirada Pack</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
+                            <i class="ri-disc-line" style="color: #b20969;"></i>
+                            <h3><a href="">Moton Ideal</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
+                            <i class="ri-base-station-line" style="color: #ff5828;"></i>
+                            <h3><a href="">Verdo Park</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
+                            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+                            <h3><a href="">Security</a></h3>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+        </section>
+        <!-- End Features Section -->
+
+        <!-- ======= Counts Section ======= -->
+        <!-- <section id="counts" class="counts">
+            <div class="container">
+
+                <div class="row" data-aos="fade-up">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="count-box">
+                            <i class="bi bi-emoji-smile"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                        <div class="count-box">
+                            <i class="bi bi-journal-richtext"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Projects</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                            <i class="bi bi-headset"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Hours Of Support</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                            <i class="bi bi-people"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Hard Workers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section> -->
+        <!-- End Counts Section -->
+
+        <!-- ======= Details Section ======= -->
+        <section id="details" class="details">
+            <div class="container">
+                <!-- <div class="row content">
+                    <div class="col-md-4" data-aos="fade-right">
+                        <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-8 pt-4" data-aos="fade-up">
+                        <h3>Introduction</h3>
+                        <p style="text-align:justify">
+                            The dog has been one of man's closest friends among animal kingdoms since ancient times. Nowadays it is not difficult to and a man who keeps dogs as pets. The global domestic dog population is an example for this. According to the estimated reports, there
+                            are more than 470 million dogs as pets worldwide where dogs are emerging as the leading pets in 2018. But with the busy lives of people, no awareness of the diseases that can befall on their pets. Likewise, with their busy
+                            lives, owners have no understanding or awareness of their pets' illnesses and their health. Therefore, in response to the problems the dogs are faced, a proposed system called <b>BEST BARK</b> has
+                            been introduced.
+                        </p>
+                    </div>
+                </div>  -->
+
+                <div class="content">
+                    <div class="col-md-12 pt-2" data-aos="fade-up">
+                        <h3>Literature Survey</h3>
+                        <p style="text-align:justify">There are mobile applications available in smartphones, but veterinary hospitals still practice the manual methods by filling books. The studies in the following four different fields have been combined in together in this proposed
+                            system. </p>
+                        <div class="collapse" id="collapseExample">
+                            <p style="text-align:justify">
+                                <i class="bi bi-check" style="color: #aa0aca;"></i>
+                                <b>
+                                    Android-based Application Utilizing Image Processing with Artificial Neural Network for Detecting Ringworm and Yeast Infections for Dogs Using Neural Framework
+                                </b>
+                                <br> The research paper focuses on the skin diseases of dogs. The system provides information on two common canine diseases: yeast and ringworm. An Android device with a resolution of at least five megapixels has been used
+                                to clearly grasp the wound on the dog's skin. In this process, the researchers used Open-Source Computer Vision (OpenCV), which can identify and analyze the taken image like a localized skin lesion. The Artificial Neural
+                                Network (ANN) model is used to train and test the dog's skin condition, which has been identified and analyzed by OpenCV. The end result is 98% and 97% accuracy for ringworms and yeast, respectively.
+                                <br>
+                                <br>
+
+                                <i class="bi bi-check" style="color: #aa0aca;"></i>
+                                <b>Chatbot for Disease Prediction and Treatment Recommendation using Machine Learning</b><br> The researchers focused on predicting disease through machine learning. A chatbot has been developed for this purpose and after
+                                the prediction, treatment has been recommended for it. This system has been developed for an alternative experiment to deviate from the traditional way of going to the hospital and seeing a doctor. Human symptoms are used
+                                to predict the disease, where the chatbot provides the user with a series of queries. The concepts of natural language processing and machine learning were primarily used to create chatbots. This system requires an algorithm
+                                that helps predict the disease from the symptoms that the user enters. The k-nearest neighbors (KNN) algorithm is used for this.
+                                <br>
+                                <br>
+
+                                <i class="bi bi-check" style="color: #aa0aca;"></i>
+                                <b>Design and implementation of intelligent question answering system based on ontology</b>
+                                <br> The proposed idea of the paper [4] outlines the concept of designing and implementing a methodology to answer ontology based intellectual questions. This system goes beyond by overcoming the problem of not being skilled
+                                enough as in traditional questions-answering systems. This study suggests a system for creating an intelligent quiz method that combines intelligent science and a search engine to address this shortcoming. The new system
+                                expands users' understanding of problem interpretations and improves their understanding of interpretive information by using clear interpretation relationships in ontology.
+                                <br>
+                                <br>
+
+                                <i class="bi bi-check" style="color: #aa0aca;"></i>
+                                <b>A DASH Diet Recommendation System for Hypertensive Patients Using Machine Learning</b>
+                                <br> In the paper which proposed a dietary recommendation system called DASH for patients with high blood pressure using machine learning has a framework which is based on factors such as age, food preferences, allergies,
+                                obesity, alcohol consumption, blood pressure and diet. The diet plan in this program is only for hypertensive patients. As a result of this system, hypertensive patients will receive a diet plan that is tailored to their
+                                lifestyle. This research paper can be used to gain a better understanding of how to build a diet plan by using machine learning technology.
+                                <br>
+                                <br>
+
+                                <i class="bi bi-check" style="color: #aa0aca;"></i>
+                                <b>
+                                    Designing Disease Prediction Model Using Machine Learning Approach
+                                </b>
+                                <br> The purpose of the research paper is to create a disease prediction model using the machine learning approach. This proposed method predicts the disease according to the patient's symptoms. An accurate prediction considers
+                                a person's lifestyle and test information. This model uses two algorithms to compare accuracy, and the Convolutional Neural Network (CNN) shows high accuracy. It is 84.5% and K-Nearest Neighbor (KNN) accuracy is lower than
+                                CNN. Also, KNN's time and memory requirements are very high.
+                            </p>
+
+                        </div>
+                        <div class="text-start">
+                            <a class="btn-get-started scrollto mt-3" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              See More
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="col-md-12" data-aos="fade-up">
+                        <h3>Research Gap</h3>
+                        <p style="text-align:justify">
+                            This system was divided into four main sections to provide a better service to the various problems faced by dog owners. in here mainly discusses the gap between the systems that were previously designed for dogs and our system.
+                        </p>
+                        <div class="collapse" id="collapseGap">
+                            <p style="text-align:justify">
+                                There are many skin disease identification systems available for humans and plants. Helping a user to find out the basic idea of a dog skin disease through image identification might be good hurdle to cross. But there is no proper solution to find out
+                                about a dog skin disease through image processing with high accuracy. Looking into the current skin diseases identifying systems, there are few solutions available but they use several technologies to implement their systems.
+                                We found one Skin diseases identifying system for dogs were done in 2020For classification process, they used Artificial Neural Network (ANN) For data classification. Image classification plays the major role in Image processing.
+                                therefor depending on the technology used to image classification, we can get more accurate result through our system. According to the researches, Convolutional Neural Networks (CNNs) is considered as the most accurate
+                                neural network model for image classification problem.
+                                <br><br> Disease prediction systems already exist and many are designed for humans. But a system as efficient and convenient as our proposed systems has not been designed for dog owners. We found some of the systems and
+                                research approaches used to predict the disease but we are introducing machine learning based chatbot to dog owners to chat and predict what is the dog diseases that their dog suffered.
+                                <br>
+                                <br> No one created a diet plan and exercise plan for domestic dogs. And in this research diet plan and exercise plan will be generated by a system that using dog details. And also user can check the Body Fat Index(BFI)
+                                of their dog using this system. It will help user to identify the risk level of their dog. The specialty of this research is the exercise and diet plans that create by our system is differ from dog to dog. The system will
+                                check the breed, age, weight, height of the dog and will create a proper plan by using those details. Additionally, the user can adjust the diet plan according to the budget of the user. And after that system will remind
+                                user about scheduled exercises and diet plans and store daily tasks in system. Then after by using those stored data, users can check and compare the health of their dog.
+                                <br>
+                                <br> There are many knowledge bases built in the world so far. But there is no system that can help users to find a answers they have about their dogs. This system will help users to find the answers to their dog.
+                            </p>
+                        </div>
+                        <div class="text-start">
+                            <a class="btn-get-started scrollto mt-3" type="button" data-toggle="collapse" data-target="#collapseGap" aria-expanded="false" aria-controls="collapseGap">
+                              See More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row content">
+                    <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                        <img src="assets/img/details-2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+                        <h3>Research Problem</h3>
+                        <p style="text-align:justify">
+                            While the majority of currently implemented solutions are oriented toward medical professionals and industrial uses, this project intends to create a solution that could be used by everyone.​<br/>
+The purpose of this research is to give consumers with accurate health information and a deeper knowledge of actual condition.​
+                        </p>
+                    </div>
+                </div>
+                <div class="row content">
+                    <div class="col-md-4" data-aos="fade-right">
+                        <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-8 pt-4" data-aos="fade-up">
+                        <h3>Objective</h3>
+                        <ul>
+                            <li><i class="bi bi-check" style="color: #aa0aca;"></i> Implement a method of gathering user information via a survey and evaluating it to determine their lung cancer risk level, as well as advising them on what to do next.</li>
+                            <li><i class="bi bi-check" style="color: #aa0aca;"></i> Implement knowledge-base community full with data and knowledge to answer issues which are related to lung-cancer.​</li>
+                            <li><i class="bi bi-check" style="color: #aa0aca;"></i> Use image processing to enhance user-provided scan images such as CT scans or X-rays and predict the severity and stage of the user's health with high accuracy.​</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="row content">
+                    <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                        <img src="assets/img/details-3.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+                        <h3>Methodology</h3>
+                        <p style="text-align:justify">The system presented in this study is a mobile application which is built by using Ionic. The mobile application can be used in both android and IOS environment. This research is mainly divided into four components as,</p>
+                        <ul>
+                            <li><i class="bi bi-check" style="color: #aa0aca;"></i> Identifying dog’s skin disease using Convolutional neural network and Machine Learning approaches.</li>
+                            <li><i class="bi bi-check" style="color: #aa0aca;"></i> Predicting dog’s diseases using Articial neural networks and Naturel Language Toolkits.</li>
+                            <li><i class="bi bi-check" style="color: #aa0aca;"></i> Create knowledgebase with sentimental analysis.</li>
+                            <li><i class="bi bi-check" style="color: #aa0aca;"></i> Create Diet plane and exercise plane with machine learning algorithms .</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="col-md-12 pt-5" data-aos="fade-up">
+                        <h3>Technology Used</h3>
+                        <div class="row">
+                            <div class="pic text-center mb-3 col-md-3">
+                                <img src="./assets/img/technologyImg/flutter.png" class="img-fluid" alt="flutter"  width="100" height="100">
+
+                            </div>
+                            <div class="pic text-center mb-3 col-md-3">
+                                <img src="./assets/img/technologyImg/Python.svg" class="img-fluid" alt="Python">
+
+                            </div>
+                            <div class="pic text-center mb-3 col-md-3">
+                                <img src="./assets/img/technologyImg/pycharm.png" width="150" height="150" class="img-fluid" alt="pycharm">
+                                <!-- <div class="text-center">
+                                    <p>Pycharm</p>
+                                </div> -->
+                            </div>
+                            <div class="pic text-center mb-3 col-md-3">
+                                <img src="./assets/img/technologyImg/visual-studio-code.jpg" width="150" height="150" class="img-fluid" alt="vscode">
+                            </div>
+                            <div class="pic text-center mb-3 col-md-3">
+                                <img src="./assets/img/technologyImg/aws.png" width="150" height="150" class="img-fluid" alt="aws">
+                            </div>
+                            <div class="pic text-center mb-3 col-md-3">
+                                <img src="./assets/img/technologyImg/tf.png" width="170" height="170" class="img-fluid" alt="tensorflow">
+                            </div>
+                            <div class="pic text-center mb-3 col-md-3 mt-1">
+                                <img src="./assets/img/technologyImg/django.png" width="170" height="170" class="img-fluid" alt="django">
+                            </div>
+                            <div class="pic text-center mb-3 col-md-3 mt-1">
+                                <img src="./assets/img/technologyImg/keras.png" width="170" height="170" class="img-fluid" alt="keras">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Details Section -->
+        <!-- Milestones -->
+        <section class="milestones " id="milestones">
+            <div class="container ">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Milestones</h2>
+                    <p>What we done</p>
+                </div>
+
+                <div class="timeline " data-aos="zoom-in" data-aos-delay="200">
+
+                    <div class="timeline__component">
+                        <div class="timeline__date timeline__date--right">March 09, 2022</div>
+                    </div>
+                    <div class="timeline__middle">
+                        <div class="timeline__point"></div>
+                    </div>
+                    <div class="timeline__component timeline__component--bg">
+                        <h2 class="timeline__title">Project Proposal</h2>
+                        <p style="font-style: italic; font-size: small; color: rgb(91, 164, 228);">Allocated Marks: 6</p>
+                    </div>
+                    <!-- end-of-timeline-item -->
+
+                    <div class="timeline__component timeline__component--bg">
+                        <h2 class="timeline__title">Progress Presentation 01</h2>
+                        <p style="font-style: italic; font-size: small; color: rgb(91, 164, 228);">Allocated Marks: 15</p>
+                    </div>
+                    <div class="timeline__middle">
+                        <div class="timeline__point"></div>
+                    </div>
+                    <div class="timeline__component">
+                        <div class="timeline__date">July 06, 2021</div>
+                    </div>
+                    <!-- end-of-timeline-item -->
+
+                    <div class="timeline__component">
+                        <div class="timeline__date timeline__date--right">October 15, 2021</div>
+                    </div>
+                    <div class="timeline__middle">
+                        <div class="timeline__point"></div>
+                    </div>
+                    <div class="timeline__component timeline__component--bg">
+                        <h2 class="timeline__title">Progress Presentation 02</h2>
+                        <p style="font-style: italic; font-size: small; color: rgb(91, 164, 228);">Allocated Marks: 18</p>
+                    </div>
+                    <!-- end-of-timeline-item -->
+
+                    <!-- <div class="timeline__component timeline__component--bg">
+                        <h2 class="timeline__title">Final Assessment</h2>
+                    </div>
+                    <div class="timeline__middle">
+                        <div class="timeline__point"></div>
+                    </div>
+                    <div class="timeline__component">
+                        <div class="timeline__date">November 22, 2021</div>
+                    </div> -->
+                    <!-- end-of-timeline-item -->
+
+                    <div class="timeline__component timeline__component--bg">
+                        <h2 class="timeline__title">Final Viva</h2>
+                        <p style="font-style: italic; font-size: small; color: rgb(91, 164, 228);">Allocated Marks: 20</p>
+                    </div>
+                    <div class="timeline__middle">
+                        <div class="timeline__point"></div>
+                        <div class="timeline__point timeline__point--bottom"></div>
+                    </div>
+                    <div class="timeline__component">
+                        <div class="timeline__date">November 22, 2021</div>
+                    </div>
+
+                    <!-- end-of-timeline-item -->
+                </div>
+            </div>
+
+        </section>
+        <!-- End Milestones -->
+        <!-- document -->
+        <section class="document " id="document">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Document</h2>
+                    <p>Our documents</p>
+                </div>
+                <div class="row">
+                    <div class="features col-md-6 mt-3">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Project Charter</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/file/d/1dfOqo3ME0pzzv8WUeFSX8WSu3Wbzr1bZ/view?usp=sharing">Download the project charter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="features col-md-6 mt-3">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Proposal Document</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/drive/folders/1loFOr-wH6Qdyel0BcEia-yiFsA4ApFz8?usp=sharing">Download the project proposal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="features col-md-6 mt-3 ">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Final Report</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/file/d/14Z7Cl-baylkBtu0WYCKIEwQwZGh3H9hU/view?usp=sharing">Download the main final document</a></li>
+                                <li><a href="https://drive.google.com/file/d/1tKun9GOQvIupXZmBSMxxZUeUjd8BGhac/view?usp=sharing">Download the IT18124354 final document</a></li>
+                                <li><a href="https://drive.google.com/file/d/12TNe8EyKbaCRsaTjHMl1Bm2vpFh1rJCv/view?usp=sharing">Download the IT18116984 final document</a></li>
+                                <li><a href="https://drive.google.com/file/d/1yIkx9Et1DiWW4x6lxENBdbUIaLqfyEdt/view?usp=sharing">Download the IT18150926 final document</a></li>
+                                <li><a href="https://drive.google.com/file/d/1rBZH_iyzGkz4eamRu3aEPj3rUVxvLB7D/view?usp=sharing">Download the IT18523256 final document</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="features col-md-6 mt-3">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Status Document</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/file/d/1H3sm4p0z1XIPInegWQVfxVEppzXDh4Ec/view?usp=sharing">Download the Status Document - 1</a></li>
+                                <li><a href="https://drive.google.com/drive/folders/1Lf4Ztn3dNeKuiueF14ip7mbyPJhcoTi_?usp=sharing">Download the Status Document - 2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="features col-md-6">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Proposal Document</h3>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End document -->
+        <!-- presentation slides -->
+        <section class="slides " id="slides">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <p>Presentation Slides</p>
+                </div>
+                <div class="row">
+                    <div class="features col-md-6 mt-3">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Proposal Presentation</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/file/d/1hSi5PL4v3AD23Im77KaztVCrDogOUf-T/view?usp=sharing">Download the proposal presentation</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="features col-md-6 mt-3">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Progress Presentation - 1</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/file/d/1GEw-QVjcQwXxxdXZgQkFCEeTkmwYERjb/view?usp=sharing">Download the progress presentation - 1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="features col-md-6 mt-3">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Progress Presentation - 2</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/file/d/1wF9uCl3VXaFkFmni8P1ZOtNbeLtv3Y9y/view?usp=sharing">Download the progress presentation - 2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="features col-md-6 mt-3">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Final Presentation</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/drive/folders/1T3tTmkjpWJNZbBvE8qS71L6sMSwIF5nG?usp=sharing">Download the final presentation - 2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End presentation slides -->
+
+        <!-- poster and paper -->
+        <section class="document " id="document">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <p>poster & research paper</p>
+                </div>
+                <div class="row">
+                    <div class="features col-md-6 mt-3">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Poster</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/file/d/1GKfI10v9G7i_X8hvi76O0Fky835z0K4k/view?usp=sharing">Download the poster</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="features col-md-6 mt-3">
+                        <div class="icon-box d-flex flex-column align-items-start" data-aos="zoom-in" data-aos-delay="250">
+                            <h3>Research Paper</h3>
+                            <ul class="mt-2">
+                                <li><a href="https://drive.google.com/file/d/172TRBmD2N-nw2FHYK37fZVW8SxNL39SD/view?usp=sharing">Download the research paper</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End poster and paper -->
+
+
+        <!-- ======= Gallery Section ======= -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Gallery</h2>
+                    <p>Check our Gallery</p>
+                </div>
+
+                <div class="row no-gutters d-flex justify-content-center" data-aos="fade-left">
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                            <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
+                                <img src="assets/img/gallery/gallery-1.png" height="150px" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+                            <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
+                                <img src="assets/img/gallery/gallery-2.png" alt="" height="150px">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                            <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
+                                <img src="assets/img/gallery/gallery-3.png" alt="" height="150px">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                            <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
+                                <img src="assets/img/gallery/gallery-4.png" alt="" height="150px">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                            <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
+                                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+                            <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
+                                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                            <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
+                                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+                            <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
+                                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Gallery Section -->
+
+        <!-- ======= Testimonials Section ======= -->
+        <!-- <section id="testimonials" class="testimonials">
+            <div class="container">
+
+                <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                <h3>Saul Goodman</h3>
+                                <h4>Ceo &amp; Founder</h4>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                    risus at semper.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div> -->
+        <!-- End testimonial item -->
+
+        <!-- <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                                <h3>Sara Wilsson</h3>
+                                <h4>Designer</h4>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure
+                                    amet legam anim culpa.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div> -->
+        <!-- End testimonial item -->
+        <!-- 
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                <h3>Jena Karlis</h3>
+                                <h4>Store Owner</h4>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
+                                    minim.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div> -->
+        <!-- End testimonial item -->
+
+        <!-- <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                                <h3>Matt Brandon</h3>
+                                <h4>Freelancer</h4>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
+                                    dolore labore illum veniam.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div> -->
+        <!-- End testimonial item -->
+
+        <!-- <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                <h3>John Larson</h3>
+                                <h4>Entrepreneur</h4>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse
+                                    veniam culpa fore nisi cillum quid.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div> -->
+        <!-- End testimonial item -->
+        <!-- 
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section> -->
+        <!-- End Testimonials Section -->
+
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Team</h2>
+                    <p>Our Team</p>
+                </div>
+
+                <div class="row" data-aos="fade-left">
+                    <div class="col-lg-6 col-md-6 d-flex mb-3 justify-content-end">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="pic"><img src="assets/img/team/supervisor.jpeg" height="200" width="200" alt=""></div>
+                            <div class="member-info">
+                                <h4>Ms. Lakmal</h4>
+                                <span>Supervisor</span>
+                                <p style="font-size: 12px; color: #2071b8; font-style: italic;">lakmal.b@sliit.lk</p>
+                                <!-- <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-6 d-flex mb-3 justify-content-start">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="pic"><img src="assets/img/team/co-supervisor.jpeg" height="200" width="200" alt=""></div>
+                            <div class="member-info">
+                                <h4>Ms. chethana</h4>
+                                <span>Co-Supervisor</span>
+                                <p style="font-size: 12px; color: #2071b8; font-style: italic;">chethana@sliit.lk </p>
+                                <!-- <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="pic"><img src="assets/img/team/team-1.jpeg" height="200" width="200" alt=""></div>
+                            <div class="member-info">
+                                <h4>roshel</h4>
+                                <span>Leader</span>
+                                <!-- <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div> -->
+                                <p style="font-size: 12px; color: #2071b8; font-style: italic;">roshel@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="pic"><img src="assets/img/team/team-2.jpeg" height="200" width="200" alt=""></div>
+                            <div class="member-info">
+                                <h4>Dinithi Anupama</h4>
+                                <span>Member</span>
+                                <p style="font-size: 12px; color: #2071b8; font-style: italic;">dinithianupama1@gmail.com</p>
+                                <!-- <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="pic"><img src="assets/img/team/team-3.jpg" height="200" width="200" alt=""></div>
+                            <div class="member-info">
+                                <h4>Shalitha Jayasekara</h4>
+                                <span>Member</span>
+                                <p style="font-size: 12px; color: #2071b8; font-style: italic;">shalithad8520jayasekara@gmail.com</p>
+                                <!-- <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="pic"><img src="assets/img/team/team-4.jpeg" height="200" width="200" alt=""></div>
+                            <div class="member-info">
+                                <h4>Isuru Pramodya</h4>
+                                <span>Member</span>
+                                <p style="font-size: 12px; color: #2071b8; font-style: italic;">isurugunarathna525@gmail.com</p>
+                                <!-- <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Team Section -->
+
+        <!-- ======= Pricing Section ======= -->
+        <!-- <section id="pricing" class="pricing">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Pricing</h2>
+                    <p>Check our Pricing</p>
+                </div>
+
+                <div class="row justify-content-md-center" data-aos="fade-left">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                            <h3>Free</h3>
+                            <h4><sup>$</sup>0<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li class="na">Pharetra massa</li>
+                                <li class="na">Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+                        <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
+                            <h3>Business</h3>
+                            <h4><sup>$</sup>19<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li class="na">Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+        <!-- <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="box" data-aos="zoom-in" data-aos-delay="300">
+                            <h3>Developer</h3>
+                            <h4><sup>$</sup>29<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li>Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="box" data-aos="zoom-in" data-aos-delay="400">
+                            <span class="advanced">Advanced</span>
+                            <h3>Ultimate</h3>
+                            <h4><sup>$</sup>49<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li>Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div> -->
+        <!-- 
+                </div>
+
+            </div>
+        </section> -->
+        <!-- End Pricing Section -->
+
+        <!-- ======= F.A.Q Section ======= -->
+        <!-- <section id="faq" class="faq section-bg">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>F.A.Q</h2>
+                    <p>Frequently Asked Questions</p>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                                <p>
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                                    cursus turpis massa tincidunt dui.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                    molestie at elementum eu facilisis sed odio morbi quis
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section> -->
+        <!-- End F.A.Q Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Contact</h2>
+                    <p>Contact Us</p>
+                </div>
+
+                <div class="row">
+
+                    <!-- <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>A108 Adam Street, New York, NY 535022</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>info@example.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+1 5589 55488 55s</p>
+                            </div>
+
+                        </div>
+
+                    </div> -->
+
+                    <div class="col-lg-12 mt-5 mt-lg-0" data-aos="fade-down" data-aos-delay="200">
+
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <!-- <div class="footer-top"> -->
+        <!-- <div class="container"> -->
+        <!-- <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-info">
+                            <h3>Best Bark</h3>
+                            <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+                            <p>
+                                A108 Adam Street <br> NY 535022, USA<br><br>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div> -->
+
+        <!-- <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div> -->
+
+        <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+
+                    </div> -->
+        <!-- 
+                </div>
+            </div> -->
+        <!-- </div> -->
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Lung Care</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
+                Made with <i class="las la-heart text-danger"></i> by Team Lung care 2022</a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
